@@ -10,7 +10,7 @@ A Simple File System for UNIX
 This Repository contains the code for a simple file system implemented for UNIX. The File system is implemented using File System in User Space (FUSE) and has persistent storage capabilities.
 
 # How to Run?
-  # Compile 
+  ## Compile 
   gcc -Wall fsys.c `pkg-config fuse3 --cflags --libs` -o fsys
   # Execute 
   ./fsys /PATH_TO_MOUNTPOINT 

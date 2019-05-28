@@ -12,7 +12,7 @@ This Repository contains the code for a simple file system implemented for UNIX.
 # How to Run?
   ## Compile 
   gcc -Wall fsys.c `pkg-config fuse3 --cflags --libs` -o fsys
-  # Execute 
+  ## Execute 
   ./fsys /PATH_TO_MOUNTPOINT 
   
 # Basic Functionlity Supported  
